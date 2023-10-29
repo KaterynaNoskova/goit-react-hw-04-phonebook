@@ -1,0 +1,21 @@
+.filter{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.filterContact{
+    font-size: 18px;
+    font-style: italic;
+}
+.filterParagraf{
+    font-size: 14px;
+}
+.filterInput{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 118, 116);
+}
+.filterInput:hover, 
+.filterInput:focus{
+    border: 2px solid rgb(40, 60, 240);
+}

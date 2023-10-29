@@ -1,0 +1,20 @@
+.buttonDelete {
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgba(250, 255, 25, 1) 0%,
+      rgba(9, 9, 121, 1) 100%
+    );
+  }
+  .buttonDelete:hover,
+  .buttonDelete:focus {
+    background: linear-gradient(
+      90deg,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(250, 255, 25, 1) 100%
+    );
+  }

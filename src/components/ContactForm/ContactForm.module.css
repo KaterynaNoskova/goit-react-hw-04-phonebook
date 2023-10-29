@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formTitle {
+  font-size: 20px;
+  font-style: italic;
+}
+.formName {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+.nameInput {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(118, 118, 116);
+}
+.nameInput:hover,
+.nameInput:focus {
+  border: 2px solid rgb(42, 5, 253);
+}
+.numberInput {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(118, 118, 116);
+}
+.numberInput:hover,
+.numberInput:focus {
+  border: 2px solid rgb(242, 250, 15);
+}
+.buttonAdd {
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(250, 255, 25, 1) 0%,
+    rgba(9, 9, 121, 1) 100%
+  );
+}
+.buttonAdd:hover,
+.buttonAdd:focus {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(250, 255, 25, 1) 100%
+  );
+}
